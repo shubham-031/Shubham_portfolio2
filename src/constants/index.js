@@ -769,6 +769,36 @@ const hackathons = [
     ],
     credential: "#",
   },
+
+//   {
+//   title: "10th Standard - 1st Rank",
+//   date: "2021",
+//   // image: web,
+//   points: [
+//     "Secured 1st Rank in Class 10 with 96.00% marks.",
+//     "1st Rank",
+//     "96.00%",
+//     "Class 10",
+//     "Academic Excellence",
+//     "Sushma Patil Vidyalaya, Kamothe, Navi Mumbai",
+//   ],
+//   credential: "#",
+// },
+
+// {
+//   title: "12th Standard - 2nd Rank",
+//   date: "2023",
+//   // image: web,
+//   points: [
+//     "Secured 2nd Rank in Class 12 with 80.67% marks.",
+//     "Achieved 98 Percentile in MHT-CET Entrance Examination.",
+//     "Academic Excellence",
+//     "Loknete Subrao Kadam Jr. College, Satara",
+//   ],
+//   credential: "#",
+// },
+
+
 ];
 
 export {

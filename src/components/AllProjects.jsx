@@ -11,14 +11,14 @@ import ProjectCard from "./ProjectCard";
 const AllProjects = () => {
   return (
     <div className="relative z-0 min-h-screen bg-gradient-to-br from-[#f0fdf4] via-[#ecfdf5] to-[#dcfce7]">
-   <motion.div variants={textVariant()} className="mb-10">
-  <p className={`${styles.sectionSubText} text-center !text-[#0F3D2E]`}>
+  <motion.div variants={textVariant()} className="mb-10">
+  <p className={`${styles.sectionSubText} text-center !text-[#064E3B]`}>
     My Work
   </p>
 
-  <h2 className={`${styles.sectionHeadText} text-center !text-[#0F3D2E]`}>
+  <h2 className={`${styles.sectionHeadText} text-center !text-[#064E3B]`}>
     All Projects
-    <span className="bg-gradient-to-r from-[#0F3D2E] via-[#14532D] to-[#166534] bg-clip-text text-transparent">
+    <span className="bg-gradient-to-r from-[#052E16] via-[#064E3B] to-[#166534] bg-clip-text text-transparent">
       .
     </span>
   </h2>
