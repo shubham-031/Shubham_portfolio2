@@ -75,20 +75,19 @@ const AllCertifications = () => {
   return (
     <div className="relative z-0 min-h-screen bg-gradient-to-br from-[#f0fdf4] via-[#ecfdf5] to-[#dcfce7]">
       <motion.div variants={textVariant()} className="mb-10">
-        <p className={`${styles.sectionSubText} text-center text-[#068f2f]`}>My Achievements</p>
-        {/* <h2 className={`${styles.sectionHeadText} text-center text-[#0d3323]`}>
-          All Certifications
-          
-          <span className="bg-gradient-to-r from-[#16a34a] via-[#22c55e] to-[#4ade80] bg-clip-text text-transparent">.</span>
-        </h2> */}
 
-        <h2 className={`${styles.sectionHeadText} text-center text-[#166534]`}>
-  All Certifications
-  <span className="bg-gradient-to-r from-[#166534] via-[#15803d] to-[#22c55e] bg-clip-text text-transparent">
-    .
-  </span>
-</h2>
-      </motion.div>
+  <p className={`${styles.sectionSubText} text-center !text-[#064E3B]`}>
+    My Achievements
+  </p>
+
+  <h2 className={`${styles.sectionHeadText} text-center !text-[#064E3B]`}>
+    All Certifications
+    <span className="bg-gradient-to-r from-[#052E16] via-[#064E3B] to-[#166534] bg-clip-text text-transparent">
+      .
+    </span>
+  </h2>
+
+</motion.div>
 
       <div className="w-full flex justify-center">
         <motion.p
