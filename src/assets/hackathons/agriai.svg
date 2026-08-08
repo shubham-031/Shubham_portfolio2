@@ -1,0 +1,89 @@
+<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgAgri" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f3d2e"/>
+      <stop offset="100%" stop-color="#16603f"/>
+    </linearGradient>
+    <linearGradient id="leafAgri" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#16a34a"/>
+      <stop offset="100%" stop-color="#86efac"/>
+    </linearGradient>
+    <radialGradient id="sunAgri" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="100%" stop-color="#facc15" stop-opacity="0.7"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#bgAgri)"/>
+
+  <!-- grid dots -->
+  <g opacity="0.12" fill="#86efac">
+    <circle cx="60" cy="60" r="2"/><circle cx="120" cy="60" r="2"/><circle cx="180" cy="60" r="2"/>
+    <circle cx="60" cy="120" r="2"/><circle cx="120" cy="120" r="2"/><circle cx="180" cy="120" r="2"/>
+    <circle cx="700" cy="80" r="2"/><circle cx="740" cy="80" r="2"/><circle cx="700" cy="120" r="2"/>
+  </g>
+
+  <!-- sun -->
+  <circle cx="650" cy="100" r="70" fill="url(#sunAgri)"/>
+
+  <!-- field rows -->
+  <g stroke="#0d3323" stroke-width="3" opacity="0.35">
+    <path d="M0 380 Q400 340 800 380" fill="none"/>
+    <path d="M0 400 Q400 360 800 400" fill="none"/>
+    <path d="M0 420 Q400 380 800 420" fill="none"/>
+    <path d="M0 440 Q400 400 800 440" fill="none"/>
+  </g>
+  <rect x="0" y="360" width="800" height="90" fill="#134a2f"/>
+
+  <!-- circuit / AI lines connecting into leaves -->
+  <g stroke="#4ade80" stroke-width="2.5" fill="none" opacity="0.8">
+    <path d="M120 300 L120 250 L220 250 L220 210"/>
+    <path d="M400 320 L400 260 L470 260 L470 210"/>
+    <path d="M600 310 L600 250 L540 250 L540 210"/>
+  </g>
+  <g fill="#86efac">
+    <circle cx="120" cy="250" r="5"/>
+    <circle cx="220" cy="250" r="5"/>
+    <circle cx="400" cy="260" r="5"/>
+    <circle cx="470" cy="260" r="5"/>
+    <circle cx="600" cy="250" r="5"/>
+    <circle cx="540" cy="250" r="5"/>
+  </g>
+
+  <!-- three plants made of leaf shapes -->
+  <g>
+    <path d="M220 210 C190 190 190 150 220 130 C250 150 250 190 220 210 Z" fill="url(#leafAgri)"/>
+    <path d="M220 210 C250 195 265 160 250 130 C215 140 200 175 220 210 Z" fill="#22c55e" opacity="0.85"/>
+    <rect x="216" y="205" width="8" height="60" rx="3" fill="#166534"/>
+  </g>
+  <g>
+    <path d="M470 210 C440 190 440 150 470 130 C500 150 500 190 470 210 Z" fill="url(#leafAgri)"/>
+    <path d="M470 210 C500 195 515 160 500 130 C465 140 450 175 470 210 Z" fill="#22c55e" opacity="0.85"/>
+    <rect x="466" y="205" width="8" height="70" rx="3" fill="#166534"/>
+  </g>
+  <g>
+    <path d="M540 210 C510 190 510 150 540 130 C570 150 570 190 540 210 Z" fill="url(#leafAgri)"/>
+    <path d="M540 210 C570 195 585 160 570 130 C535 140 520 175 540 210 Z" fill="#22c55e" opacity="0.85"/>
+    <rect x="536" y="205" width="8" height="55" rx="3" fill="#166534"/>
+  </g>
+
+  <!-- AI chip / brain badge -->
+  <g transform="translate(330,255)">
+    <rect x="-45" y="-45" width="90" height="90" rx="18" fill="#0d3323" stroke="#4ade80" stroke-width="3"/>
+    <g stroke="#4ade80" stroke-width="2.5">
+      <line x1="-45" y1="-15" x2="-60" y2="-15"/>
+      <line x1="-45" y1="15" x2="-60" y2="15"/>
+      <line x1="45" y1="-15" x2="60" y2="-15"/>
+      <line x1="45" y1="15" x2="60" y2="15"/>
+      <line x1="-15" y1="-45" x2="-15" y2="-60"/>
+      <line x1="15" y1="-45" x2="15" y2="-60"/>
+      <line x1="-15" y1="45" x2="-15" y2="60"/>
+      <line x1="15" y1="45" x2="15" y2="60"/>
+    </g>
+    <path d="M-20 5 C-20 -15 -5 -25 0 -15 C5 -25 20 -15 20 5 C20 20 5 25 0 15 C-5 25 -20 20 -20 5 Z" fill="#86efac"/>
+  </g>
+
+  <!-- title -->
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="30" font-weight="800" fill="#ecfdf5" text-anchor="middle" letter-spacing="1">AgriAI Hackathon</text>
+  <text x="400" y="88" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#86efac" text-anchor="middle" letter-spacing="3">SMART FARMING · AI/ML · RUNNER UP</text>
+</svg>
