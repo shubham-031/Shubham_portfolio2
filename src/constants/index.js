@@ -729,32 +729,33 @@ const projects = [
 ];
 
 const hackathons = [
+ {
+  title: "Kurukshetra 2025 - 1st Prize Winner",
+  date: "August 2025",
+  image: hackKurukshetra,
+  points: [
+    "Secured 1st Prize (Open Innovation) among 1000+ participants across India at the national-level hackathon.",
+    "1st Prize",
+    "National Level",
+    "Open Innovation",
+    "24-Hour Challenge",
+  ],
+  credential: "https://www.linkedin.com/posts/shubham-jadhav-7581692a9_kurukshetra2025-nationalhackathon-1000plusparticipant-activity-7368202631334359041-EaBk?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEo9gvQBJG3qh0N0ZcLS25jJewcjCTbd-f8",
+},
   {
-    title: "Kurukshetra 2025 - 1st Prize Winner",
-    date: "August 2025",
-    image: hackKurukshetra,
-    points: [
-      "Secured 1st Prize (Open Innovation) among 1000+ participants across India at the national-level hackathon.",
-      "1st Prize",
-      "National Level",
-      "Open Innovation",
-      "24-Hour Challenge",
-    ],
-    credential: "#",
-  },
-  {
-    title: "InnoHack 2.0 - Top 5 Achievement",
-    date: "July 30-31, 2025",
-    image: hackInnohack,
-    points: [
-      "Secured Top 5 position among 250+ teams at Maharashtra's biggest hackathon.",
-      "Top 5",
-      "Innovation",
-      "Teamwork",
-      "Rapid Prototyping",
-    ],
-    credential: "#",
-  },
+  title: "InnoHack 2.0 - Top 5 Achievement",
+  date: "July 30-31, 2025",
+  image: hackInnohack,
+  points: [
+    "Secured Top 5 position among 250+ teams at Maharashtra's biggest hackathon.",
+    "Top 5",
+    "Innovation",
+    "Teamwork",
+    "Rapid Prototyping",
+  ],
+  credential: "https://www.linkedin.com/posts/shubham-jadhav-7581692a9_hackthon-innohack2-vitpune-activity-7357839844686856192-xCo5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEo9gvQBJG3qh0N0ZcLS25jJewcjCTbd-f8",
+},
+
   {
     title: "AgriAI Hackathon - Runner Up",
     date: "2025",
@@ -767,7 +768,7 @@ const hackathons = [
       "Smart Farming",
       "Innovation",
     ],
-    credential: "#",
+    credential: "https://www.linkedin.com/posts/shubham-jadhav-7581692a9_agriai-hackathon-agriculturetech-activity-7368202631334359041-EaBk?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEo9gvQBJG3qh0N0ZcLS25jJewcjCTbd-f8",
   },
 
 //   {
