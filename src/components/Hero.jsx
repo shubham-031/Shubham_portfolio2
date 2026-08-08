@@ -55,8 +55,8 @@ const Hero = () => {
             platforms and web applications.
           </p> */}
 
- <p
-  className={`${styles.heroSubText} mt-4 text-[#064E3B] max-w-2xl leading-[45px] tracking-[0.01em] font-black`}
+<p
+  className={`${styles.heroSubText} mt-4 text-[#052E16] max-w-2xl leading-[45px] tracking-[0.01em] font-black`}
   style={{ fontFamily: "'Outfit', sans-serif" }}
 >
   I design and develop user interfaces,
