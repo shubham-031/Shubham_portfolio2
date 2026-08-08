@@ -671,61 +671,61 @@ const projects = [
   source_code_link: "https://github.com/shubham-031/Spotify_mini_project",
   live_project_link: "https://spotify-mini-project.vercel.app/",
 },
-  {
-    name: "PG Life",
-    description:
-      "The PG-Life Web Application is a platform designed to facilitate the management and search for Paying Guest (PG) accommodations. It allows users to explore available PG options, view details, and connect with potential landlords or tenants.",
-    icon: mobile,
-    tags: [
-      {
-        name: "html",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "bootstrap",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
-    ],
-    image: pglife,
-    source_code_link: "https://github.com/Shubham rajput2002/PG_Life",
-    live_project_link: "https://github.com/Shubham rajput2002/PG_Life",
-  },
-  {
-    name: "Sorting Visualizer",
-    description:
-      "The Sorting Visualizer is a web application that provides a visual representation of various sorting algorithms. It allows users to observe and understand how different sorting algorithms work by animating the sorting process.",
-    icon: fullstack,
-    tags: [
-      {
-        name: "html",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "bootstrap",
-        color: "green-text-gradient",
-      },
-    ],
-    image: sortingvisualiser,
-    source_code_link:
-      "https://github.com/Shubham rajput2002/sorting-visualizer-project.github.io.git",
-    live_project_link: "https://sorting-visuallizer.netlify.app/",
-  },
+  // {
+  //   name: "PG Life",
+  //   description:
+  //     "The PG-Life Web Application is a platform designed to facilitate the management and search for Paying Guest (PG) accommodations. It allows users to explore available PG options, view details, and connect with potential landlords or tenants.",
+  //   icon: mobile,
+  //   tags: [
+  //     {
+  //       name: "html",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "bootstrap",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "javascript",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: pglife,
+  //   source_code_link: "https://github.com/Shubham rajput2002/PG_Life",
+  //   live_project_link: "https://github.com/Shubham rajput2002/PG_Life",
+  // },
+  // {
+  //   name: "Sorting Visualizer",
+  //   description:
+  //     "The Sorting Visualizer is a web application that provides a visual representation of various sorting algorithms. It allows users to observe and understand how different sorting algorithms work by animating the sorting process.",
+  //   icon: fullstack,
+  //   tags: [
+  //     {
+  //       name: "html",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "javascript",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "bootstrap",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: sortingvisualiser,
+  //   source_code_link:
+  //     "https://github.com/Shubham rajput2002/sorting-visualizer-project.github.io.git",
+  //   live_project_link: "https://sorting-visuallizer.netlify.app/",
+  // },
 ];
 
 const hackathons = [
