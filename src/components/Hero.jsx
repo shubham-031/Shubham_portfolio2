@@ -54,15 +54,15 @@ const Hero = () => {
             <br />
             platforms and web applications.
           </p> */}
-
 <p
-  className={`${styles.heroSubText} mt-4 text-[#052E16] max-w-2xl leading-[45px] tracking-[0.01em] font-black`}
-  style={{ fontFamily: "'Outfit', sans-serif" }}
+  className={`${styles.heroSubText} mt-4 text-[#064E3B] max-w-2xl leading-[45px] tracking-[0.01em] font-black`}
+  style={{ fontFamily: "'Poppins', sans-serif" }}
 >
   I design and develop user interfaces,
   <br />
   platforms and web applications.
 </p>
+
           {/* Description */}
           <motion.p
             className="mt-6 text-[#0d3323] max-w-2xl text-[16px] sm:text-[18px] leading-8 font-semibold drop-shadow-md"
